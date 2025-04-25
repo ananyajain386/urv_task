@@ -66,7 +66,7 @@ export default function SkillsShowcase() {
   return (
     <Tabs defaultValue="frontend" value={activeTab} onValueChange={setActiveTab} className="w-full">
       <div className="flex justify-center mb-8">
-        <TabsList className="grid grid-cols-3 w-full max-w-md">
+        <TabsList className=" w-full">
           <TabsTrigger value="frontend">Frontend</TabsTrigger>
           {/* <TabsTrigger value="backend">Backend</TabsTrigger>
           <TabsTrigger value="tools">Tools</TabsTrigger> */}
