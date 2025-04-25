@@ -46,6 +46,7 @@ export default function ProjectsPage() {
               description="Developed a centralized online tool showcasing sustainable construction techniques, incorporating planning resources for architects and builders; reduced project planning time by 30%"
               tags={["React.js", "Tailwind CSS", "JavaScript"]}
               image="/placeholder.svg?height=400&width=600"
+              viewlink="https://github.com/ananyajain386/HBM"
               codeSnippet={`// Component for displaying sustainable materials
 function SustainableMaterial({ name, description, co2Reduction }) {
   return (
@@ -66,7 +67,8 @@ function SustainableMaterial({ name, description, co2Reduction }) {
               title="Paytm Clone"
               description="Developed a paytm clone covering all the basic features like transactions, payment history that it provides"
               tags={["React.js", "CSS", "JavaScript"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/placeholder3.svg?height=400&width=600"
+              viewlink="https://github.com/ananyajain386/Paywind"
               codeSnippet={`// Transaction history component with filtering
 function TransactionHistory({ transactions }) {
   const [filter, setFilter] = useState('all');
@@ -119,6 +121,7 @@ function TransactionHistory({ transactions }) {
               title="STUDENT PORTAL"
               description="Developed student portal for KIET Group of Institutions including various modules like COE, Academics, Hostel Allotment. Streamlined all the academic activities starting from registration and covering entire student lifecycle."
               tags={["React.js", "Next.js", "Django", "MySQL"]}
+              viewlink="https://tech.kiet.edu/StudentPortal/#/dashboard"
               image="/placeholder.svg?height=400&width=600"
               codeSnippet={`// Server component for fetching student data
 async function getStudentData(studentId) {
@@ -143,9 +146,11 @@ async function getStudentData(studentId) {
               id="headquarters"
               title="HEADQUARTERS"
               description="Developed a party management system including features like party request, reimbursement, leave request."
+              viewlink="https://headquarters-pms.vercel.app/"
               tags={["React.js", "Django", "Python", "MySQL"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/placeholder1.svg?height=400&width=600"
               codeSnippet={`// React component for leave request form
+              
 function LeaveRequestForm() {
   const [formData, setFormData] = useState({
     startDate: '',
@@ -631,7 +636,7 @@ function LeaveRequestForm() {
             <Card className="border-none shadow-lg overflow-hidden">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=800"
+                  src="/placeholder2.svg?height=400&width=800"
                   alt="Ecobuild"
                   className="w-full h-full object-cover"
                 />
@@ -802,7 +807,7 @@ function SustainableMaterial({ name, description, co2Reduction }) {
   )
 }
 
-function ProjectCard({ id, title, description, tags, image, codeSnippet }) {
+function ProjectCard({ id, title, description, tags, image, codeSnippet,viewlink }) {
   const controls = useAnimation()
   const [ref, inView] = useInView({
     triggerOnce: false,
@@ -845,14 +850,14 @@ function ProjectCard({ id, title, description, tags, image, codeSnippet }) {
           </div>
         </CardContent>
         <CardFooter className="flex justify-between pt-2">
-          <Button variant="outline" size="sm" asChild>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+          {/* <Button variant="outline" size="sm" asChild>
+            <a href={codelink} target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-4 w-4" />
               Code
             </a>
-          </Button>
+          </Button> */}
           <Button size="sm" asChild>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href={viewlink} target="_blank" rel="noopener noreferrer">
               <ArrowUpRight className="mr-2 h-4 w-4" />
               Demo
             </a>
