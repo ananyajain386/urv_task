@@ -45,7 +45,7 @@ export default function ProjectsPage() {
               title="ECOBUILD"
               description="Developed a centralized online tool showcasing sustainable construction techniques, incorporating planning resources for architects and builders; reduced project planning time by 30%"
               tags={["React.js", "Tailwind CSS", "JavaScript"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/placeholder2.svg?height=400&width=600"
               viewlink="https://github.com/ananyajain386/HBM"
               codeSnippet={`// Component for displaying sustainable materials
 function SustainableMaterial({ name, description, co2Reduction }) {
@@ -256,13 +256,13 @@ function ProjectSection() {
                 <div className="flex justify-between items-start">
                   <CardTitle className="text-2xl">STUDENT PORTAL</CardTitle>
                   <div className="flex gap-2">
-                    <Button variant="ghost" size="icon" asChild>
+                    {/* <Button variant="ghost" size="icon" asChild>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <Github className="h-5 w-5" />
                       </a>
-                    </Button>
+                    </Button> */}
                     <Button variant="ghost" size="icon" asChild>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a href="https://tech.kiet.edu/StudentPortal/#/dashboard" target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="h-5 w-5" />
                       </a>
                     </Button>
@@ -426,7 +426,7 @@ async function getStudentData(studentId) {
             <Card className="border-none shadow-lg overflow-hidden">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=800"
+                  src="/placeholder1.svg?height=400&width=800"
                   alt="Headquarters"
                   className="w-full h-full object-cover"
                 />
@@ -436,13 +436,13 @@ async function getStudentData(studentId) {
                 <div className="flex justify-between items-start">
                   <CardTitle className="text-2xl">HEADQUARTERS</CardTitle>
                   <div className="flex gap-2">
-                    <Button variant="ghost" size="icon" asChild>
+                    {/* <Button variant="ghost" size="icon" asChild>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <Github className="h-5 w-5" />
                       </a>
-                    </Button>
+                    </Button> */}
                     <Button variant="ghost" size="icon" asChild>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a href="https://headquarters-pms.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="h-5 w-5" />
                       </a>
                     </Button>
@@ -646,13 +646,13 @@ function LeaveRequestForm() {
                 <div className="flex justify-between items-start">
                   <CardTitle className="text-2xl">ECOBUILD</CardTitle>
                   <div className="flex gap-2">
-                    <Button variant="ghost" size="icon" asChild>
+                    {/* <Button variant="ghost" size="icon" asChild>
                       <a href="#" target="_blank" rel="noopener noreferrer">
                         <Github className="h-5 w-5" />
                       </a>
-                    </Button>
+                    </Button> */}
                     <Button variant="ghost" size="icon" asChild>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/ananyajain386/HBM" target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="h-5 w-5" />
                       </a>
                     </Button>

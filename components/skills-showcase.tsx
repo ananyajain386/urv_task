@@ -14,18 +14,18 @@ const skills = {
     { name: "JavaScript", level: 92, icon: <Code2 className="h-5 w-5" /> },
     { name: "Tailwind CSS", level: 88, icon: <Palette className="h-5 w-5" /> },
   ],
-  backend: [
-    { name: "Django", level: 80, icon: <Server className="h-5 w-5" /> },
-    { name: "Python", level: 85, icon: <Code2 className="h-5 w-5" /> },
-    { name: "MySQL", level: 75, icon: <Database className="h-5 w-5" /> },
-    { name: "RESTful APIs", level: 82, icon: <Layers className="h-5 w-5" /> },
-  ],
-  tools: [
-    { name: "Git", level: 88, icon: <GitBranch className="h-5 w-5" /> },
-    { name: "GitHub", level: 90, icon: <GitBranch className="h-5 w-5" /> },
-    { name: "VS Code", level: 95, icon: <Code2 className="h-5 w-5" /> },
-    { name: "Linux", level: 70, icon: <Cpu className="h-5 w-5" /> },
-  ],
+  // backend: [
+  //   { name: "Django", level: 80, icon: <Server className="h-5 w-5" /> },
+  //   { name: "Python", level: 85, icon: <Code2 className="h-5 w-5" /> },
+  //   { name: "MySQL", level: 75, icon: <Database className="h-5 w-5" /> },
+  //   { name: "RESTful APIs", level: 82, icon: <Layers className="h-5 w-5" /> },
+  // ],
+  // tools: [
+  //   { name: "Git", level: 88, icon: <GitBranch className="h-5 w-5" /> },
+  //   { name: "GitHub", level: 90, icon: <GitBranch className="h-5 w-5" /> },
+  //   { name: "VS Code", level: 95, icon: <Code2 className="h-5 w-5" /> },
+  //   { name: "Linux", level: 70, icon: <Cpu className="h-5 w-5" /> },
+  // ],
 }
 
 export default function SkillsShowcase() {
