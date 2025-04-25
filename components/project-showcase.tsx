@@ -17,26 +17,26 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     tags: ["React.js", "Next.js", "Django", "MySQL"],
     github: "#",
-    demo: "#",
+    demo: "https://tech.kiet.edu/StudentPortal/#/dashboard",
   },
   {
     id: "headquarters",
     title: "HEADQUARTERS",
     description: "A party management system with features for party requests, reimbursements, and leave management.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/placeholder1.svg?height=400&width=600",
     tags: ["React.js", "Django", "Python", "MySQL"],
     github: "#",
-    demo: "#",
+    demo: "https://headquarters-pms.vercel.app/"
   },
   {
     id: "ecobuild",
     title: "ECOBUILD",
     description:
       "A centralized online tool for sustainable construction techniques that reduced project planning time by 30%.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/placeholder2.svg?height=400&width=600",
     tags: ["React.js", "Tailwind CSS", "JavaScript"],
     github: "#",
-    demo: "#",
+    demo: "https://github.com/ananyajain386/HBM",
   },
 ]
 
@@ -116,12 +116,12 @@ function ProjectCard({ project, variants, index }) {
           </div>
         </CardContent>
         <CardFooter className="flex justify-between pt-2">
-          <Button variant="outline" size="sm" asChild>
+          {/* <Button variant="outline" size="sm" asChild>
             <a href={project.github} target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-4 w-4" />
               Code
             </a>
-          </Button>
+          </Button> */}
           <Button size="sm" asChild>
             <a href={project.demo} target="_blank" rel="noopener noreferrer">
               <ArrowUpRight className="mr-2 h-4 w-4" />
