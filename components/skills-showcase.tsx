@@ -68,8 +68,8 @@ export default function SkillsShowcase() {
       <div className="flex justify-center mb-8">
         <TabsList className="grid grid-cols-3 w-full max-w-md">
           <TabsTrigger value="frontend">Frontend</TabsTrigger>
-          <TabsTrigger value="backend">Backend</TabsTrigger>
-          <TabsTrigger value="tools">Tools</TabsTrigger>
+          {/* <TabsTrigger value="backend">Backend</TabsTrigger>
+          <TabsTrigger value="tools">Tools</TabsTrigger> */}
         </TabsList>
       </div>
 
