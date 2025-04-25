@@ -41,7 +41,7 @@ export default function BasketballInteraction() {
     // Draw basketball
     const ball = new Image()
     ball.crossOrigin = "anonymous"
-    ball.src = "/placeholder.svg?height=40&width=40"
+    ball.src = "/white.svg?height=40&width=40"
     ball.onload = () => {
       ctx.drawImage(ball, canvas.width / 2 - 20, canvas.height - 60, 40, 40)
     }
